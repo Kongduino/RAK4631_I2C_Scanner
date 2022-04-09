@@ -2,7 +2,7 @@
 
 An I2C scanner for the RUI3 platform. It detects the presence of an OLED and displays results both on Serial and OLED (if available).
 
-To make the `ss_oled` library work with RUI3 for the moment (we're missing stuff from `avr/pgmspace`), you need to patch `ss_oled.h`:
+To make the [ss_oled](https://github.com/bitbank2/ss_oled) library work with RUI3 for the moment (we're missing stuff from `avr/pgmspace`), you need to patch `ss_oled.h`:
 
 Right below `#include <BitBang_I2C.h>` insert:
 
