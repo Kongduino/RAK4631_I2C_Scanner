@@ -12,7 +12,7 @@ Right below `#include <BitBang_I2C.h>` insert:
 #endif
 ```
 
-Where `XXXXXXXX` is your user ID. This works for Mac. For Linux the paths will be slightly different, but should be easily fixable.
+Where `XXXXXXXX` is your user ID. This works for Mac. For Linux and Windows the paths will be slightly different, but should be easily fixable.
 
 ![i2cscan](i2cscan.gif)
 
