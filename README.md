@@ -7,7 +7,7 @@ To make the [ss_oled](https://github.com/bitbank2/ss_oled) library work with RUI
 Right below `#include <BitBang_I2C.h>` insert:
 
 ```c
-x#ifdef __RUI_TOP_H__
+#ifdef __RUI_TOP_H__
 #include "/Users/XXXXXXXX/Library/Arduino15/packages/rakwireless/hardware/nrf52/1.0.1/cores/nRF5/avr/pgmspace.h"
 #endif
 ```
