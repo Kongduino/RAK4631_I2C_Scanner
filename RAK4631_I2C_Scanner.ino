@@ -8,7 +8,7 @@
 #define SCL_PIN WB_I2C1_SCL
 
 #define RESET_PIN -1
-#define FLIPPED 1
+#define FLIPPED 0
 #define INVERTED 0
 // Use bit banging to get higher speed output
 #define HARDWARE_I2C 1
@@ -40,7 +40,6 @@ void setup() {
   Serial.println("\n\nI2C Scanner...");
   Wire.begin();
   //Wire.setClock(400000);
-
   // Test for OLED
   Wire.beginTransmission(0x3c);
   delay(100);

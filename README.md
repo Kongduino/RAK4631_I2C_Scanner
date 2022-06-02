@@ -1,6 +1,6 @@
 # RAK4631_I2C_Scanner
 
-An I2C scanner for the RUI3 platform. It detects the presence of an OLED and displays results both on Serial and OLED (if available).
+An I2C scanner for the RUI3 platform running on the Wisblock products. It detects the presence of an OLED and displays results both on Serial and OLED (if available).
 
 To make the [ss_oled](https://github.com/bitbank2/ss_oled) library work with RUI3 for the moment (we're missing stuff from `avr/pgmspace`), you need to patch `ss_oled.h`:
 
